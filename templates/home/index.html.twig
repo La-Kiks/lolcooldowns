@@ -1,0 +1,27 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}LoL Cooldowns{% endblock %}
+
+{% block body %}
+
+    <h1>Check if a Name is in the List</h1>
+
+    <form method="post" action="{{ path('home') }}">
+        <label for="name">Enter a name:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Check</button>
+    </form>
+    <div class="flex">{{ dump(message) }}</div>
+    <div>{{ dump(names) }}</div>
+<div class="flex">
+    {% if message is not null %}
+        <p>{{ message }}</p>
+    {% endif %}
+</div>
+
+<tr class="h-25 flex-column">
+    <td> ico - champion - Qico 1 2 3 4 5 6 - Wico 1 2 3 4 5 6 - Eico 1 2 3 4 5 6 - Rico 1 2 3</td>
+
+</tr>
+
+{% endblock %}

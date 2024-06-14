@@ -1,0 +1,234 @@
+{
+    "Amumu": {
+        "q": [
+            16,
+            15.5,
+            15,
+            14.5,
+            14
+        ],
+        "w": null,
+        "e": null,
+        "r": null
+    },
+    "Ashe": {
+        "q": null,
+        "w": null,
+        "e": [
+            90,
+            80,
+            70,
+            60,
+            50
+        ],
+        "r": null
+    },
+    "Azir": {
+        "q": null,
+        "w": [
+            10,
+            9,
+            8,
+            7,
+            6
+        ],
+        "e": null,
+        "r": null
+    },
+    "Bard": {
+        "q": null,
+        "w": [
+            18,
+            18,
+            18,
+            18,
+            18
+        ],
+        "e": null,
+        "r": null
+    },
+    "Caitlyn": {
+        "q": null,
+        "w": [
+            30,
+            24,
+            19,
+            15,
+            12
+        ],
+        "e": null,
+        "r": null
+    },
+    "Corki": {
+        "q": null,
+        "w": null,
+        "e": null,
+        "r": [
+            20,
+            20,
+            20
+        ]
+    },
+    "Gangplank": {
+        "q": null,
+        "w": null,
+        "e": [
+            18,
+            17,
+            16,
+            15,
+            14
+        ],
+        "r": null
+    },
+    "Heimerdinger": {
+        "q": [
+            20
+        ],
+        "w": null,
+        "e": null,
+        "r": null
+    },
+    "Ivern": {
+        "q": null,
+        "w": [
+            20,
+            20,
+            20,
+            20,
+            20
+        ],
+        "e": null,
+        "r": null
+    },
+    "Jhin": {
+        "q": null,
+        "w": null,
+        "e": [
+            24,
+            21.5,
+            19,
+            16.5,
+            14
+        ],
+        "r": null
+    },
+    "Kalista": {
+        "q": null,
+        "w": [
+            90,
+            80,
+            70,
+            60,
+            50
+        ],
+        "e": null,
+        "r": null
+    },
+    "Milio": {
+        "q": null,
+        "w": null,
+        "e": [
+            17,
+            16,
+            15,
+            14,
+            13
+        ],
+        "r": null
+    },
+    "Nilah": {
+        "q": null,
+        "w": null,
+        "e": [
+            26,
+            22.5,
+            19,
+            15.5,
+            12
+        ],
+        "r": null
+    },
+    "Rumble": {
+        "q": null,
+        "w": null,
+        "e": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "r": null
+    },
+    "Syndra": {
+        "q": [
+            7,
+            7,
+            7,
+            7,
+            7
+        ],
+        "w": null,
+        "e": null,
+        "r": null
+    },
+    "Taric": {
+        "q": [
+            15,
+            15,
+            15,
+            15,
+            15
+        ],
+        "w": null,
+        "e": null,
+        "r": null
+    },
+    "Teemo": {
+        "q": null,
+        "w": null,
+        "e": null,
+        "r": [
+            35,
+            30,
+            25
+        ]
+    },
+    "Velkoz": {
+        "q": null,
+        "w": [
+            19,
+            18,
+            17,
+            16,
+            15
+        ],
+        "e": null,
+        "r": null
+    },
+    "Vi": {
+        "q": null,
+        "w": null,
+        "e": [
+            12,
+            11,
+            10,
+            9,
+            8
+        ],
+        "r": null
+    },
+    "Zyra": {
+        "q": null,
+        "w": [
+            18,
+            16,
+            14,
+            12,
+            10
+        ],
+        "e": null,
+        "r": null
+    }
+}
