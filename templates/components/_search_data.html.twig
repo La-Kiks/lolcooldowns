@@ -1,0 +1,25 @@
+<div class="container">
+    {{ form_start(form) }}
+
+    <label  for="champion_name">{{ field_label(form.championName) }}</label>
+    <input type="text"
+          class=""
+          name="{{ field_name(form.championName) }}"
+          value="{{ field_value(form.championName) }}"
+          id="champion_name"
+    />
+
+
+    <label  for="haste">{{ field_label(form.haste) }}</label>
+    <input type="text"
+           class=""
+           name="{{ field_name(form.haste) }}"
+           value="{{ field_value(form.haste) }}"
+           id="haste"
+    />
+
+    <button type="submit" class="btn btn-primary">Send</button>
+    {{ form_rest(form) }}
+    {{ form_errors(form) }}
+    {{ form_end(form) }}
+</div>

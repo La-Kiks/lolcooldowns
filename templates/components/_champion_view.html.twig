@@ -1,0 +1,39 @@
+<div class="row mt-2 " id="{{ champion.name }}">
+    <div class="col">
+        <img src="{{ champion.icon }}" alt="{{ champion.name }}" style="height: 64px" class="border border-black">
+    </div>
+
+    {% for spell in champion.spells %}
+        <div class="col-xl">
+            <img src="{{ spell.icon }}" alt="{{ spell.name }}" style="height: 64px" class="border border-black">
+        </div>
+
+        {% if spell.cooldowns is empty %}
+            <div class="cooldown col-xl text-center p-1 border border-black bg-black" style="--bs-bg-opacity: .30;">
+                No CD
+            </div>
+
+        {% else %}
+
+            {% if spell.affectedByCdr %}
+
+                {% for cooldown in spell.cooldowns %}
+                    <div class="cooldown col-xl text-center p-1 border border-black bg-black" style="--bs-bg-opacity: .30;">
+                        {{ cooldown * cooldown_multiplier | round(1) }}
+                    </div>
+                {% endfor %}
+
+            {% else %}
+
+                {% for cooldown in spell.cooldowns %}
+                    <div class="cooldown col-xl text-center p-1 border border-black bg-black" style="--bs-bg-opacity: .30;">
+                        {{ cooldown }}
+                    </div>
+                {% endfor %}
+
+            {% endif %}
+
+        {% endif %}
+
+    {% endfor %}
+</div>

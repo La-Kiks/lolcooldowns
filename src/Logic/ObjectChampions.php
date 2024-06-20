@@ -5,7 +5,7 @@ namespace App\Logic;
 use PHPUnit\Util\Exception;
 use Psr\Log\LoggerInterface;
 
-class Champions
+class ObjectChampions
 {
     private string $championsMerakiURL = "https://cdn.merakianalytics.com/riot/lol/resources/latest/en-US/champions.json";
 
@@ -67,7 +67,7 @@ class Champions
     /**
      * From the champions Meraki, create a lighter custom JSON file with only the necessary informations.
      *
-     * Champions, cooldowns, images url.
+     * ObjectChampions, cooldowns, images url.
      * @throws \JsonException if it couldnt create the champions.json
      * @throws Exception if there was trouble fetching data from local json.
      */
@@ -182,7 +182,7 @@ class Champions
         $filteredData = $this->oneValueException($filteredData, 'Sona', 'W');
         $filteredData = $this->oneValueException($filteredData, 'Sona', 'E');
 
-        // Unique exceptions:
+        // Uniques exceptions :
         $filteredData = $this->uniqueExceptions($filteredData, $dataMera);
 
         //
@@ -501,6 +501,8 @@ class Champions
             ]
         ];
         // Kled Q2 lvl 1-18
+
+        // Heimerdinger R 6 values
 
         return $filteredData;
     }

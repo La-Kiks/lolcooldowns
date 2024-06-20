@@ -152,7 +152,8 @@ class Versions
      * Meraki are the same version online.
      *
      * Meraki is sometimes updated 1-3 days after ddragon, and it's bad practice to not update both simultaneously.
-     * @return bool False if online & local are different version and ddragon Meraki are on the same version online.
+     * @return bool False if online & local are different version and ddragon Meraki are on the same version online,
+     * meaning an update is possible.
      *
      * True if the versions are similar or if the update is not possible yet.
      */
