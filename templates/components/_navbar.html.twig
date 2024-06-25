@@ -1,0 +1,39 @@
+<nav class="p-2 navbar navbar-light bg-dark">
+
+    <div class="container-fluid d-flex align-items-center justify-content-">
+        <div class="dropdown d-flex keep-inside-clicks-open">
+            <button
+                    class="btn btn-light dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton"
+                    data-mdb-dropdown-init
+                    data-mdb-ripple-init
+                    aria-expanded="false"
+            >
+                Champions & Haste
+            </button>
+
+            <ul class="dropdown-menu bg-dark-subtle" style="width: 320px"  aria-labelledby="dropdownMenuButton">
+{#                {% if form is defined %}#}
+{#                    {% include 'components/_search_data.html.twig' with {#}
+{#                        form: form#}
+{#                    } only %}#}
+{#                {% endif %}#}
+
+            </ul>
+        </div>
+
+            <h1 class="display-6 d-none d-sm-block d-md-block"> LoL Cooldowns </h1>
+
+
+            <span class="navbar-brand text-center" >
+                <img
+                        src="{{ asset('/images/icons/favicon-32x32.png') }}"
+                        height="32"
+                        alt="Cooldown Logo"
+                        loading="lazy"
+                />
+            </span>
+
+    </div>
+</nav>

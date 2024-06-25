@@ -1,15 +1,23 @@
-<div class="row mt-2 " id="{{ champion.name }}">
+<div class="row mt-2 g-0 w-auto" id="{{ champion.name }}">
     <div class="col">
-        <img src="{{ champion.icon }}" alt="{{ champion.name }}" style="height: 64px" class="border border-black">
+        <img src="{{ champion.icon }}" alt="{{ champion.name }}" style="height: 64px" class="border border-black bg-opacity-75 ">
     </div>
 
     {% for spell in champion.spells %}
-        <div class="col-xl">
-            <img src="{{ spell.icon }}" alt="{{ spell.name }}" style="height: 64px" class="border border-black">
+        {% set y = loop.index0 %}
+        {% if y is same as 4 %}
+            <div class="w-100"></div>
+        {% endif %}
+        {% if y is same as 2 %}
+            <div class="w-100 d-block d-xxl-none d-xl-none d-lg-none"></div>
+        {% endif %}
+        <div class="col">
+            <img src="{{ spell.icon }}" alt="{{ spell.name }}" style="height: 64px" class="border border-black bg-opacity-75">
         </div>
 
+
         {% if spell.cooldowns is empty %}
-            <div class="cooldown col-xl text-center p-1 border border-black bg-black" style="--bs-bg-opacity: .30;">
+            <div class="cooldown d-flex align-items-center text-center col border border-black bg-black bg-opacity-75" style="--bs-bg-opacity: .30;">
                 No CD
             </div>
 
@@ -18,15 +26,17 @@
             {% if spell.affectedByCdr %}
 
                 {% for cooldown in spell.cooldowns %}
-                    <div class="cooldown col-xl text-center p-1 border border-black bg-black" style="--bs-bg-opacity: .30;">
-                        {{ cooldown * cooldown_multiplier | round(1) }}
+
+                    <div class="cooldown d-flex justify-content-center align-items-center col  p-0 border border-black bg-black bg-opacity-75" style="--bs-bg-opacity: .30;">
+                        {{ cooldown * cooldown_multipliers[i] | round(1) }}
                     </div>
+
                 {% endfor %}
 
             {% else %}
 
                 {% for cooldown in spell.cooldowns %}
-                    <div class="cooldown col-xl text-center p-1 border border-black bg-black" style="--bs-bg-opacity: .30;">
+                    <div class="cooldown d-flex col justify-content-center align-items-center p-0 border border-black bg-black bg-opacity-75" style="--bs-bg-opacity: .30;">
                         {{ cooldown }}
                     </div>
                 {% endfor %}
@@ -34,6 +44,6 @@
             {% endif %}
 
         {% endif %}
-
     {% endfor %}
+    <div class="w-100"></div>
 </div>

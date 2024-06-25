@@ -13,41 +13,42 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class ChampionController extends AbstractController
 {
-    #[Route('/champion', name: 'app.champion', methods: ['GET', 'POST'])]
+    #[Route('/', name: 'app.champion', methods: ['GET', 'POST'])]
     public function index(ChampionRepository $championRepository,
                             Request $request,
     PaginatorInterface $paginator): Response
     {
-        $data = $championRepository->findAll();
+        // Load the full table & paginate it : (not useful imo)
+//        $data = $championRepository->findAll();
+//        $champions = $paginator->paginate($data, $request->query->getInt('page', 1), 10);
 
-        $champions = $paginator->paginate($data, $request->query->getInt('page', 1), 10);
         $searchData = new SearchData();
-
-        // dd($champions[0]->getSpells()[0]->getCooldowns());
+        $champions = null;
 
         $form = $this->createForm(SearchType::class, $searchData);
         $form->handleRequest($request);
-        dd($request);
 
-//        dd($searchData->haste);
+        $cooldownMultipliers = array_fill(0, 10, 1);
 
         if ($form->isSubmitted() && $form->isValid()) {
             $searchData->page = $request->query->getInt('page', 1);
             $champions = $championRepository->findBySearch($searchData);
 
-            if($searchData->haste !== 0){
-                $searchData->multiplier = $this->cooldownReduction($searchData->haste);
-            }
-
         }
 
         return $this->render('home/champions.html.twig', [
-            'form' => $form->createView(),
+            'form' => $form,
             'champions' => $champions,
-            'cooldown_multiplier' => $searchData->multiplier,
+            'cooldown_multipliers' => $cooldownMultipliers,
         ]);
     }
 
+    /**
+     * @param int $haste is the value of haste.
+     * @return float cooldown reduction multiplier.
+     *
+     * For exemple with 100 haste : 100 / (100 + 100) = 0.5
+     */
     private function cooldownReduction(int $haste): float
     {
         // reduced cooldown = base cooldown x 100 / (100 + haste)

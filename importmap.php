@@ -35,4 +35,14 @@ return [
         'version' => '5.3.3',
         'type' => 'css',
     ],
+    'mdb-ui-kit' => [
+        'version' => '7.3.2',
+    ],
+    'mdb-ui-kit/css/mdb.min.css' => [
+        'version' => '7.3.2',
+        'type' => 'css',
+    ],
+    'jquery' => [
+        'version' => '3.7.1',
+    ],
 ];

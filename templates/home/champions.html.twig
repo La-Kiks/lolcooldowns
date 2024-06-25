@@ -3,18 +3,23 @@
 {% block title %}LoL Cooldowns{% endblock %}
 
 {% block body %}
-    <h1> Champion Page Test</h1>
-    {% if form is defined %}
-        {% include 'components/_search_data.html.twig' with {
-            form: form
-        } only %}
-    {% endif %}
-<div class="container text-center">
-    {% for champion in champions %}
-        {% include 'components/_champion_view.html.twig' %}
-    {% endfor %}
-    <div class="container">
-        {{  knp_pagination_render(champions) }}
+    <div class="d-flex">
+        <div class="mx-4 d-none d-xxl-block d-xl-block m-auto h-full d-flex justify-content-center align-items-center" style="max-width: 320px">
+            {% if form is defined %}
+                {% include 'components/_search_form.html.twig' with {
+                    form: form
+                } only %}
+            {% endif %}
+        </div>
+        <div class="w-100">
+            {% for champion in champions %}
+                {% set i = loop.index0 %}
+                {% include 'components/_champion_view.html.twig'  with {'i': i} %}
+            {% endfor %}
+        </div>
     </div>
-</div>
+
+
+
+
 {% endblock %}

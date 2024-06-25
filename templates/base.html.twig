@@ -3,37 +3,56 @@
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
+
+        <!-- Icons -->
         <link rel="icon" href="{{ asset('/images/icons/favicon.ico') }}">
         <link rel="icon" href="{{ asset('/images/icons/favicon-16x16.png') }}" sizes="16x16" type="image/png">
         <link rel="icon" href="{{ asset('/images/icons/favicon-32x32.png') }}" sizes="32x32" type="image/png">
         <link rel="android-chrome" href="{{ asset('/images/icons/android-chrome-192x192.png') }}" sizes="192x192" type="image/png">
         <link rel="android-chrome" href="{{ asset('/images/icons/android-chrome-512x512.png') }}" sizes="512x512" type="image/png">
         <link rel="apple-touch-icon" href="{{ asset('/images/icons/apple-touch-icon.png') }}" sizes="180x180" type="image/png">
+
+        <!-- Font Awesome -->
+        <link  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+
         {% block stylesheets %}
         {% endblock %}
 
         {% block javascripts %}
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
-    </head>
-    <body class="bg-dark text-light">
-        <div class="d-flex flex-column h-100">
 
-            <div class="p-4 m-4">
-                <h1 class="d-flex justify-content-center">LoL Cooldowns</h1>
+    </head>
+
+    <body class="bg-dark text-light">
+
+        <div class="d-flex flex-column h-100">
+            <div class="d-none d-xxl-block d-xl-block">
+                {% include 'components/_navbar_large.html.twig' %}
+            </div>
+            <div class="d-block d-xxl-none d-xl-none" >
+                {% include 'components/_navbar.html.twig' %}
             </div>
 
-            <div class="container p-2 h-100 text-truncate">
+            <div class="container pt-4 h-auto overflow-visible">
                 {% block body %}{% endblock %}
             </div>
 
-            <div class="mt-auto w-full bg-secondary">
+            {% if champions %}
+            <div class="container mt-auto mb-2">
+                {{  knp_pagination_render(champions) }}
+            </div>
+            {% endif %}
+
+            <div class="m-auto spacer"></div>
+            <div class="mb-0 w-full bg-secondary">
                 <h6 class="mx-4 my-2 fs-6 fw-light">lolcooldowns.com isn’t endorsed by Riot Games and doesn’t reflect
                     the views or opinions of Riot Games or anyone officially involved in producing or managing League
                     of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games,
                     Inc. League of Legends © Riot Games, Inc.</h6>
             </div>
-
         </div>
     </body>
 </html>
