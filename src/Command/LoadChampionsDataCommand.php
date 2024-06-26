@@ -36,6 +36,10 @@ class LoadChampionsDataCommand extends Command
     {
     }
 
+    /**
+     * Set Data functions works to fill an empty DB.
+     *
+     */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
 

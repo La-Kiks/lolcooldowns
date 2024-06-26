@@ -15,7 +15,7 @@ use Symfony\Component\Console\Output\OutputInterface;
     description: 'Check if JSON updates are possible, then  update all the JSON.',
     aliases: ['app:update']
 )]
-class ChampionsCommand extends Command
+class UpdateJsonCommand extends Command
 {
     public function __construct(private ObjectChampions $champions,  private Versions $versions)
     {
@@ -29,7 +29,7 @@ class ChampionsCommand extends Command
 
     /**
      * Initial champions data is downloaded from Meraki using version logic, if "compareVersionsDDMera" = false.
-     * Create a new championsMeraki.sjon via "createMerakiJSON".
+     * Create a new championsMeraki.json via "createMerakiJSON".
      * From the championsMeraki.json we can use "findExceptionsMeraki" to generate 3 json files Abilities, CD, Recharge.
      * Finally, create the champions.json using "championsCustom" which should handle all the exceptions.
      * @throws \JsonException

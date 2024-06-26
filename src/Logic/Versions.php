@@ -196,6 +196,7 @@ class Versions
             } else {
                 $this->logger->info('Online versions of ddragon and Meraki are NOT similar');
             }
+            $this->logger->info('Update is impossible or not needed.');
             return true;
         }
     }
