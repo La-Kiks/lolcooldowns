@@ -4,7 +4,9 @@
 
 {% block body %}
     <div class="d-flex">
-        <div class="mx-4 d-none d-xxl-block d-xl-block m-auto h-full d-flex justify-content-center align-items-center" style="max-width: 320px">
+        <div    id="form-position-large"
+                class="mx-2 d-none d-xxl-block d-xl-block m-auto h-full d-flex justify-content-center align-items-center"
+                style="min-width: 320px">
             {% if form is defined %}
                 {% include 'components/_search_form.html.twig' with {
                     form: form
@@ -18,8 +20,5 @@
             {% endfor %}
         </div>
     </div>
-
-
-
 
 {% endblock %}

@@ -1,61 +1,43 @@
-    {{ form_start(form) }}
+{{ form_start(form) }}
 
-    <div class="row mb-2" >
+<div class="row mb-4 flex-nowrap" >
+
+    <div class="col d-flex align-items-center justify-content-center">
+        <button id="sub-button-side" type="submit" class="btn btn-success" data-mdb-ripple-init>
+            Send
+        </button>
+    </div>
+
+    <div class="col d-flex align-items-center justify-content-center">
+        <a type="button"  id="form-reset-side" href="{{ path(app.current_route) }}"
+           class="btn btn-danger d-flex" data-mdb-ripple-init>
+            Reset
+        </a>
+    </div>
+
+</div>
+
+<div    data-controller="form-collection"
+        data-form-collection-index-value="{{ form.champions|length > 0 ? form.champions|last.vars.name + 1 : 0 }}"
+        data-form-collection-prototype-value="{{ form_row(form.champions.vars.prototype)|e('html_attr') }}"
+        class="container-fluid"
+>
+
+    <ul class="container-fluid">
+        {{ form_widget(form.champions, {'attr': {'data-form-collection-target': 'collectionContainer'}}) }}
+    </ul>
+
+    <div class="row mb-4">
         <div class="col d-flex align-items-center justify-content-center">
-            <button id="sub-button-side" type="submit" class="btn btn-success" data-mdb-ripple-init>Send</button>
-        </div>
-        <div class="col d-flex align-items-center justify-content-center">
-            <a type="button"  id="form-reset-side" href="{{ path(app.current_route) }}" class="btn btn-danger d-flex" data-mdb-ripple-init>Reset</a>
+            <button id="add-button" type="button" {{ stimulus_action('form-collection', 'addCollectionElement') }}
+                    class="btn btn-secondary">
+               ADD
+            </button>
         </div>
     </div>
 
-    <div    data-controller="form-collection"
-            data-form-collection-index-value="{{ form.champions|length > 0 ? form.champions|last.vars.name + 1 : 0 }}"
-            data-form-collection-prototype-value="{{ form_row(form.champions.vars.prototype)|e('html_attr') }}"
-    >
-        <ul> {{ form_widget(form.champions, {'attr': {'data-form-collection-target': 'collectionContainer'}}) }}</ul>
-        <button type="button" {{ stimulus_action('form-collection', 'addCollectionElement') }}>Add a tag</button>
-    </div>
+</div>
 
-{#    <div id="side-form" class="row my-4" >#}
-{#        <div class="col">#}
-{#            <div data-mdb-input-init class="form-outline">#}
-{#                <input type="text"#}
-{#                       class="form-control text-white"#}
-{#                       name="{{ field_name(form.championOne) }}"#}
-{#                       value="{{ field_value(form.championOne) }}"#}
-{#                       id="championOneSide"#}
-{#                />#}
-{#                <label  class="form-label text-white-50" for="championOneSide">{{ field_label(form.championOne) }}</label>#}
-{#            </div>#}
-{#        </div>#}
-{#        <div class="col">#}
-{#            <div data-mdb-input-init class="form-outline">#}
-{#                <input type="text"#}
-{#                       class="form-control text-white"#}
-{#                       name="{{ field_name(form.hasteOne) }}"#}
-{#                       value="{{ field_value(form.hasteOne) }}"#}
-{#                       id="hasteOneSide"#}
-{#                />#}
-{#                <label  class="form-label text-white-50" for="hasteOneSide">{{ field_label(form.hasteOne) }}</label>#}
-{#            </div>#}
-{#        </div>#}
-{#    </div>#}
-
-
-
-{#    <div class="row mb-4">#}
-{#        <div class="col d-flex align-items-center justify-content-center">#}
-{#            <button id="show-next-button" type="button" class="btn btn-secondary">#}
-{#                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">#}
-{#                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"></path>#}
-{#                    <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"></path>#}
-{#                </svg>#}
-{#            </button>#}
-{#        </div>#}
-{#        <div class="col d-flex align-items-center justify-content-center"></div>#}
-{#    </div>#}
-
-    {{ form_rest(form) }}
-    {{ form_errors(form) }}
-    {{ form_end(form) }}
+{{ form_rest(form) }}
+{{ form_errors(form) }}
+{{ form_end(form) }}

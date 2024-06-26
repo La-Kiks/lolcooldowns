@@ -2,14 +2,14 @@
         <div class="row">
             <div class="col">
                 <div data-mdb-input-init class="form-outline">
-                    {{ form_widget(form.champion) }}
+                    {{ form_widget(form.champion, { 'attr': {'class': 'text-white'} }) }}
                     {{ form_label(form.champion) }}
                 </div>
             </div>
             <div class="col">
                 <div data-mdb-input-init class="form-outline">
-                    {{ form_widget(form.haste) }}
-                    {{ form_label(form.haste) }}
+                    {{ form_widget(form.haste, { 'attr': {'class': 'text-white'} }) }}
+                    {{ form_label(form.haste)}}
                 </div>
             </div>
         </div>

@@ -12,17 +12,17 @@ export default class extends Controller {
 
     addCollectionElement(event)
     {
-        const item = document.createElement('li');
-        item.innerHTML = this.prototypeValue.replace(/__name__/g, this.indexValue);
-        this.collectionContainerTarget.appendChild(item.firstElementChild);
-        this.indexValue++;
+        if(this.indexValue < 10){
+            const item = document.createElement('li');
+            item.innerHTML = this.prototypeValue.replace(/__name__/g, this.indexValue);
+            this.collectionContainerTarget.appendChild(item.firstElementChild);
+            this.indexValue++;
+
+            if(this.indexValue  === 10){
+                const button = document.getElementById('add-button');
+                button.setAttribute('disabled', '');
+            }
+        }
     }
 
-    removeCollectionElement(event)
-    {
-        const item = document.createElement('li');
-        item.innerHTML = this.prototypeValue.replace(/__name__/g, this.indexValue);
-        this.collectionContainerTarget.appendChild(item);
-        this.indexValue++;
-    }
 }

@@ -2,7 +2,6 @@
     <div class="col">
         <img src="{{ champion.icon }}" alt="{{ champion.name }}" style="height: 64px" class="border border-black bg-opacity-75 ">
     </div>
-
     {% for spell in champion.spells %}
         {% set y = loop.index0 %}
         {% if y is same as 4 %}
@@ -28,7 +27,7 @@
                 {% for cooldown in spell.cooldowns %}
 
                     <div class="cooldown d-flex justify-content-center align-items-center col  p-0 border border-black bg-black bg-opacity-75" style="--bs-bg-opacity: .30;">
-                        {{ cooldown * cooldown_multipliers[i] | round(1) }}
+                        {{ (cooldown - (cooldown * cooldown_multipliers[champion.name])) | round(1) }}
                     </div>
 
                 {% endfor %}

@@ -18,21 +18,22 @@ class ChampionController extends AbstractController
                             Request $request,
     PaginatorInterface $paginator): Response
     {
-        // Load the full table & paginate it : (not useful imo)
-//        $data = $championRepository->findAll();
-//        $champions = $paginator->paginate($data, $request->query->getInt('page', 1), 10);
-
         $searchData = new SearchData();
         $champions = null;
+        $cooldownMultipliers = [];
 
         $form = $this->createForm(SearchType::class, $searchData);
         $form->handleRequest($request);
 
-        $cooldownMultipliers = array_fill(0, 10, 1);
-
         if ($form->isSubmitted() && $form->isValid()) {
             $searchData->page = $request->query->getInt('page', 1);
             $champions = $championRepository->findBySearch($searchData);
+            foreach ($searchData->champions as $champion){
+                if(!is_numeric($champion['haste'])){
+                    $champion['haste'] = 0;
+                }
+                $cooldownMultipliers[$champion['champion']] = $this->cooldownReduction($champion['haste']);
+            }
 
         }
 
