@@ -17,6 +17,12 @@ class SetDataChampions
     }
     public function load(ObjectChampions $objectChampions, EntityManagerInterface $manager): void
     {
+        $commands = [
+            'php bin/console d:d:d --force',
+            'php bin/console d:d:c',
+            'php bin/console make:migration',
+            'php bin/console d:m:m --no-interaction',
+        ];
         $dataChampions = $objectChampions->getChampionsData();
 
         foreach ( $dataChampions as $dataChamp){
