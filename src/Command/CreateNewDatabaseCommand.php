@@ -32,6 +32,7 @@ class CreateNewDatabaseCommand extends Command
     {
         $commands = [
             'php bin/console doctrine:database:drop --force',
+            'rm -rf migrations/*',
             'php bin/console d:d:c',
             'php bin/console make:migration',
             'php bin/console d:m:m --no-interaction',
