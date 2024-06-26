@@ -7,12 +7,13 @@ use App\Logic\Versions;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
 
 #[AsCommand(
     name: 'app:champions:update:json',
-    description: 'Check if JSON updates are possible, then  update all the JSON.',
+    description: 'Check if JSON updates are possible, then  update all the JSON. Use -vv to access logger.',
     aliases: ['app:update']
 )]
 class UpdateJsonCommand extends Command
@@ -24,7 +25,10 @@ class UpdateJsonCommand extends Command
 
     protected function configure(): void
     {
-
+        $this->addOption('force',
+            'f',
+            InputOption::VALUE_OPTIONAL,
+            'Force the updates of versions & JSON files.');
     }
 
     /**
@@ -36,6 +40,14 @@ class UpdateJsonCommand extends Command
      */
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
+        if($input->getOption('force')){
+            $this->champions->createMerakiJSON();
+            $this->champions->findExceptionsMeraki();
+            $this->champions->championsCustom();
+            $this->versions->updateVersions();
+            return Command::SUCCESS;
+        }
+
         if($this->versions->compareVersionsDDMera()){
             return Command::FAILURE;
         } else {

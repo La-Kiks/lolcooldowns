@@ -130,6 +130,8 @@ class ObjectChampions
                 ]
             ];
 
+
+
             // Handle recharges exceptions if they exist for the current champion:
             $excepReExist = $dataExceptRe[$championName] ?? null;
             if ($excepReExist){
@@ -172,7 +174,6 @@ class ObjectChampions
 
             // end foreach
         }
-        // echo json_encode($exceptReList);  // List to control exceptionsRecharge.json
 
         // Uniques exceptions :
         $filteredData = $this->uniqueExceptions($filteredData, $dataMera);
@@ -193,7 +194,7 @@ class ObjectChampions
     }
 
     /**
-     *  Function to fix the one value exceptions by duplicating this vlaue 5 times.
+     *  Function to fix the one value exceptions by duplicating this value 5 times.
      * @param $data
      * @param string $champion Champion name - need to match Meraki.
      * @param string $key Q W E R
@@ -516,7 +517,7 @@ class ObjectChampions
                 'Q' => [
                     'name' => $championData['abilities']['Q']['0']['name'],
                     'icon' => $championData['abilities']['Q']['0']['icon'],
-                    'cooldown' => $championData['abilities']['Q']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'cooldown' => [20],
                     'affectedByCdr' => $championData['abilities']['Q']['0']['cooldown']['affectedByCdr'] ?? null,
                 ],
                 'W' => [

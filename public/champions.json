@@ -2699,11 +2699,11 @@
                 "name": "H-28G Evolution Turret",
                 "icon": "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/q",
                 "cooldown": [
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
+                    20,
+                    20,
+                    20,
+                    20,
+                    20
                 ],
                 "affectedByCdr": true
             },
