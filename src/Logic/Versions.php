@@ -12,7 +12,9 @@ class Versions
     private string $versionDDPath ;
     private string $versionMerakiPath ;
 
-    public function __construct(private readonly LoggerInterface $logger, private readonly string $publicDir)
+    public function __construct(private readonly LoggerInterface $logger,
+                                private readonly string $publicDir,
+                                private readonly string  $templatesDir)
     {
         $this->versionDDPath = $this->publicDir . '/versionDD.txt';
         $this->versionMerakiPath = $this->publicDir . '/versionMeraki.txt';
@@ -103,10 +105,18 @@ class Versions
     /**
      * Create the versionMeraki.txt file with the version fetch from Meraki.
      */
-    private function createVersionMeraki(): void
+    public function createVersionMeraki(): void
     {
         $version = $this->versionLoLMeraki();
         $this->createVersionTxt("versionMeraki", $version);
+
+        // Also create a version.txt in templates :
+        $filePath = sprintf("%s/%s.txt", $this->templatesDir, 'version');
+        if (file_put_contents($filePath, $version) !== false){
+            $this->logger->info('File created  successfully at ' . $filePath );
+        } else {
+            $this->logger->info('Failed to create the file ' . $filePath );
+        }
     }
 
     /**
@@ -157,7 +167,7 @@ class Versions
      *
      * True if the versions are similar or if the update is not possible yet.
      */
-    private function compareVersionsDDMera(): bool
+    public function compareVersionsDDMera(): bool
     {
         $objDD = $this->checkIfDDIsUpToDate();
         $objMera = $this->checkIfMerakiIsUpToDate();
@@ -191,10 +201,10 @@ class Versions
     }
 
     /**
-     * Update both local versions of ddragon & Meraki.
+     * Update both local versions of ddragon & Meraki in .txt files.
      * @return void
      */
-    private function updateVersions(): void
+    public function updateVersions(): void
     {
         $this->createVersionDD();
         $this->createVersionMeraki();

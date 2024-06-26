@@ -18,8 +18,9 @@ use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Console\Style\SymfonyStyle;
 
 #[AsCommand(
-    name: 'app:loadChampionsData',
+    name: 'app:champions:load:database',
     description: 'Get the data from the custom JSON public/champions.json to fill the DB.',
+    aliases: ['app:load-db']
 )]
 class LoadChampionsDataCommand extends Command
 {

@@ -54,7 +54,7 @@ class ObjectChampions
      * @throws \JsonException
      * @throws Exception
      */
-    private function createMerakiJSON(): void
+    public function createMerakiJSON(): void
     {
         $content = $this->championsMeraki();
         if($content){
@@ -65,10 +65,10 @@ class ObjectChampions
     }
 
     /**
-     * From the champions Meraki, create a lighter custom JSON file with only the necessary informations.
+     * From the champions Meraki, create a lighter custom JSON file with only the necessary information.
      *
      * ObjectChampions, cooldowns, images url.
-     * @throws \JsonException if it couldnt create the champions.json
+     * @throws \JsonException if it couldn't create the champions.json
      * @throws Exception if there was trouble fetching data from local json.
      */
     public function championsCustom(): void
@@ -130,7 +130,7 @@ class ObjectChampions
                 ]
             ];
 
-            // Handle recharges exceptions :
+            // Handle recharges exceptions if they exist for the current champion:
             $excepReExist = $dataExceptRe[$championName] ?? null;
             if ($excepReExist){
                 // List of champions handled by this logic -> should match exceptionsRecharge.json
@@ -174,7 +174,10 @@ class ObjectChampions
         }
         // echo json_encode($exceptReList);  // List to control exceptionsRecharge.json
 
-        // One value exceptions :  Heimer QE - Karma W - Sona QWE
+        // Uniques exceptions :
+        $filteredData = $this->uniqueExceptions($filteredData, $dataMera);
+
+        // One value exceptions :  Heimerdinger QE - Karma W - Sona QWE
         $filteredData = $this->oneValueException($filteredData, 'Heimerdinger', 'Q');
         $filteredData = $this->oneValueException($filteredData, 'Heimerdinger', 'E');
         $filteredData = $this->oneValueException($filteredData, 'Karma', 'W');
@@ -182,11 +185,7 @@ class ObjectChampions
         $filteredData = $this->oneValueException($filteredData, 'Sona', 'W');
         $filteredData = $this->oneValueException($filteredData, 'Sona', 'E');
 
-        // Uniques exceptions :
-        $filteredData = $this->uniqueExceptions($filteredData, $dataMera);
-
-        //
-
+        // Creating the final JSON for champions that will  be used to fill the Database :
         $filteredJSON = json_encode($filteredData, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR);
         $championsJSONPath = $this->publicDir . '/champions.json';
         file_put_contents($championsJSONPath, $filteredJSON);
@@ -500,9 +499,47 @@ class ObjectChampions
                 ],
             ]
         ];
-        // Kled Q2 lvl 1-18
-
         // Heimerdinger R 6 values
+        $championData = $merakiData['Heimerdinger'];
+        $filteredData['Heimerdinger'] = [
+            'id' => $championData['id'],
+            'key' => $championData['key'],
+            'name' => $championData['name'],
+            'icon' => $championData['icon'],
+            'abilities' => [
+                'P' => [
+                    'name' => $championData['abilities']['P']['0']['name'],
+                    'icon' => $championData['abilities']['P']['0']['icon'],
+                    'cooldown' => $championData['abilities']['P']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['P']['0']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'Q' => [
+                    'name' => $championData['abilities']['Q']['0']['name'],
+                    'icon' => $championData['abilities']['Q']['0']['icon'],
+                    'cooldown' => $championData['abilities']['Q']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['Q']['0']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'W' => [
+                    'name' => $championData['abilities']['W']['0']['name'],
+                    'icon' => $championData['abilities']['W']['0']['icon'],
+                    'cooldown' => $championData['abilities']['W']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['W']['0']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'E' => [
+                    'name' => $championData['abilities']['E']['0']['name'],
+                    'icon' => $championData['abilities']['E']['0']['icon'],
+                    'cooldown' => $championData['abilities']['E']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['E']['0']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'R' => [
+                    'name' => $championData['abilities']['R']['0']['name'],
+                    'icon' => $championData['abilities']['R']['0']['icon'],
+                    'cooldown' => [100, 85, 70],
+                    'affectedByCdr' => $championData['abilities']['R']['0']['cooldown']['affectedByCdr'] ?? null,
+                ]
+            ]
+        ];
+        // Kled Q2 lvl 1-18
 
         return $filteredData;
     }
@@ -515,7 +552,7 @@ class ObjectChampions
      * @throws \JsonException if unable to encode the json files.
      * @throws Exception if unable to fetch data from local championsMeraki.json.
      */
-    private function findExceptionsMeraki(): void
+    public function findExceptionsMeraki(): void
     {
         $championsMerakiPath = $this->publicDir . '/championsMeraki.json';
         $json = file_get_contents($championsMerakiPath);
@@ -545,21 +582,26 @@ class ObjectChampions
             $er = $championData['abilities']['E']['0']['rechargeRate'];
             $rr = $championData['abilities']['R']['0']['rechargeRate'];
 
+            // Recharge rate not null means that this is the real cooldown value
             if ( $qr !== null || $wr !== null || $er !== null || $rr !== null){
                 $exceptionsListRecharge[$championName] = ['q' => $qr, 'w' => $wr, 'e' => $er, 'r' => $rr];
             }
 
+            // Each spell should have 5 or 3 cooldown values :
             if( ($qd && $qd !== 5) || ($wd && $wd !== 5) || ($ed && $ed !== 5) || ($rd && $rd !== 3) ){
                 $exceptionsListCd[$championName] = ['q' => $qd, 'w' => $wd, 'e' => $ed, 'r' => $rd];
             }
+            // If not no cooldowns at all :
             if (!$qd || !$wd || !$ed || !$rd){
                 $exceptionsListCd[$championName] = ['q' => $qd, 'w' => $wd, 'e' => $ed, 'r' => $rd];
             }
-
+            // Each spell should be one spell else it's an exception (Nidalee, Elise...) :
             if (($pc && $pc > 1) || ($qc && $qc > 1) || ($wc && $wc > 1) || ($ec && $ec > 1) || ($rc && $rc > 1)){
                 $exceptionsListAbilities[$championName] = ['p'=> $pc, 'q'=> $qc, 'w'=> $wc, 'e'=> $ec, 'r'=> $rc];
             }
         }
+
+        // Creating 3 JSON files with all the exceptions : Abilities, CD, Recharge :
         $filteredJSONAbilities = json_encode($exceptionsListAbilities, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR);
         $filteredJSONCd = json_encode($exceptionsListCd, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR);
         $filteredJSONRecharge = json_encode($exceptionsListRecharge, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_THROW_ON_ERROR);
