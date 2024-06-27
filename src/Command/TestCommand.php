@@ -40,7 +40,6 @@ class TestCommand extends Command
 
        $json  = json_encode($result);
        dump($json);
-
         return Command::SUCCESS;
     }
 }

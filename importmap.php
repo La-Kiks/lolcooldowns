@@ -67,4 +67,7 @@ return [
         'version' => '9.2.1',
         'type' => 'css',
     ],
+    'js-levenshtein-esm' => [
+        'version' => '1.2.0',
+    ],
 ];

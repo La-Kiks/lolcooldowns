@@ -43,8 +43,8 @@ class LoadChampionsDataCommand extends Command
     protected function execute(InputInterface $input, OutputInterface $output): int
     {
 
-        $this->setDataChampions->load($this->objectChampions, $this->em);
-        $this->setDataSpells->load($this->objectChampions, $this->em);
+        $this->setDataChampions->load();
+        $this->setDataSpells->load();
 
         return Command::SUCCESS;
     }

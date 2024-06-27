@@ -4,38 +4,39 @@ namespace App\SetData;
 
 use App\Entity\Champion;
 use App\Logic\ObjectChampions;
+use App\Repository\ChampionRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
 
 class SetDataChampions
 
 {
-    public function __construct(private readonly LoggerInterface $logger,
-                                private readonly string $publicDir)
+    public function __construct(
+        private readonly ChampionRepository $championRepository,
+        private readonly ObjectChampions $objectChampions,
+        private readonly EntityManagerInterface $manager
+    )
     {
 
     }
-    public function load(ObjectChampions $objectChampions, EntityManagerInterface $manager): void
+    public function load(): void
     {
-        $commands = [
-            'php bin/console d:d:d --force',
-            'php bin/console d:d:c',
-            'php bin/console make:migration',
-            'php bin/console d:m:m --no-interaction',
-        ];
-        $dataChampions = $objectChampions->getChampionsData();
+        $dataChampions = $this->objectChampions->getChampionsData();
 
         foreach ( $dataChampions as $dataChamp){
-            $champion = new Champion();
+            $champion = $this->championRepository->findOneBy(['key' => $dataChamp['key']]);
+            if(!$champion)
+            {
+                $champion = new Champion();
+            }
             $champion
                 ->setKey($dataChamp['key'])
                 ->setName($dataChamp['name'])
                 ->setIcon($dataChamp['icon'])
             ;
-            $manager->persist($champion);
-
+            $this->manager->persist($champion);
 
         }
-        $manager->flush();
+        $this->manager->flush();
     }
 }

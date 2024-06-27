@@ -5,42 +5,50 @@ namespace App\SetData;
 use App\Entity\Spell;
 use App\Logic\ObjectChampions;
 use App\Repository\ChampionRepository;
+use App\Repository\SpellRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;
 
 class SetDataSpells
 
 {
-    public function __construct(private readonly LoggerInterface $logger,
-                                private readonly string $publicDir,
-                                private readonly ChampionRepository $championRepository)
+    public function __construct(
+        private readonly ChampionRepository $championRepository,
+        private readonly SpellRepository $spellRepository,
+        private readonly ObjectChampions $objectChampions,
+        private readonly EntityManagerInterface $manager
+    )
     {
 
     }
-    public function load(ObjectChampions $objectChampions, EntityManagerInterface $manager): void
+    public function load(): void
     {
-        $dataChampions = $objectChampions->getChampionsData();
+        $dataChampions = $this->objectChampions->getChampionsData();
 
         foreach ( $dataChampions as $dataChamp){
-            $champion = $this->championRepository->findBy(['name' => $dataChamp['name']]);
+            $champion = $this->championRepository->findOneBy(['name' => $dataChamp['name']]);
 
             foreach($dataChamp['abilities'] as $ability => $content ){
-
                 // Don't want to store passive in the DB at the moment
                 if($ability !== 'P'){
-                    $spell = new Spell();
+                    $spell = $this->spellRepository->findOneBy(['champion' =>  $champion, 'name' => $ability ]);
+                    if(!$spell)
+                    {
+                        $spell = new Spell();
+                    }
+
                     $spell
-                        ->setChampion($champion[0])
+                        ->setChampion($champion)
                         ->setName($ability)
                         ->setIcon($content['icon'])
                         ->setCooldowns($content['cooldown'])
                         ->setAffectedByCdr($content['affectedByCdr'])
                     ;
-                    $manager->persist($spell);
-                    $champion[0]->addSpell($spell);
+                    $this->manager->persist($spell);
+                    $champion->addSpell($spell);
                 }
             }
-            $manager->flush();
+            $this->manager->flush();
         }
 
     }

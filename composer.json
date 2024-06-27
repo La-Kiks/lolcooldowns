@@ -82,12 +82,21 @@
             "assets:install %PUBLIC_DIR%": "symfony-cmd",
             "importmap:install": "symfony-cmd"
         },
+        "db-recreate": {
+            "doctrine:database:drop --if-exists": "symfony-cmd",
+            "doctrine:database:create": "symfony-cmd",
+            "doctrine:migrations:generate": "symfony-cmd",
+            "doctrine:migrations:migrate": "symfony-cmd"
+        },
         "post-install-cmd": [
             "@auto-scripts"
         ],
         "post-update-cmd": [
             "@auto-scripts"
         ]
+    },
+    "scripts-descriptions": {
+        "db-recreate": "Delete old DB & create the new one."
     },
     "conflict": {
         "symfony/symfony": "*"
