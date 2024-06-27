@@ -45,4 +45,26 @@ return [
     'jquery' => [
         'version' => '3.7.1',
     ],
+    'tom-select' => [
+        'version' => '2.3.1',
+    ],
+    'tom-select/dist/css/tom-select.bootstrap5.css' => [
+        'version' => '2.3.1',
+        'type' => 'css',
+    ],
+    'tom-select/dist/css/tom-select.default.css' => [
+        'version' => '2.3.1',
+        'type' => 'css',
+    ],
+    'tom-select/dist/css/tom-select.bootstrap4.css' => [
+        'version' => '2.3.1',
+        'type' => 'css',
+    ],
+    'autocompleter' => [
+        'version' => '9.2.1',
+    ],
+    'autocompleter/autocomplete.min.css' => [
+        'version' => '9.2.1',
+        'type' => 'css',
+    ],
 ];

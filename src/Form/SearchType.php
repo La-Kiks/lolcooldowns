@@ -18,7 +18,7 @@ class SearchType extends AbstractType
                'entry_type' => ChampionHasteType::class,
                 'allow_add' => true,
                 'allow_delete' => true,
-                'entry_options' => ['label' => false],
+                'entry_options' => ['label' => false]
             ]);
     }
 

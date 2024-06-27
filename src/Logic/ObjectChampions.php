@@ -628,4 +628,17 @@ class ObjectChampions
         return json_decode($json, true);
     }
 
+    public function getChampionNames(): array
+    {
+        $championsPath = $this->publicDir . '/champions.json';
+        $json = file_get_contents($championsPath);
+        $data = json_decode($json, true);
+        $names = [];
+
+        foreach ($data as $champion){
+            $names[]= $champion['name'];
+        }
+        return $names;
+    }
+
 }

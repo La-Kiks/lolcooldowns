@@ -15,7 +15,6 @@ class ChampionHasteType extends AbstractType
             ->add('champion', TextType::class, [
                 'label' => 'Champion',
                 'required' => false,
-                'empty_data' => ''
             ])
             ->add('haste',  NumberType::class, [
                 'label' => 'Haste',
