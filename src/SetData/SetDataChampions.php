@@ -14,7 +14,8 @@ class SetDataChampions
     public function __construct(
         private readonly ChampionRepository $championRepository,
         private readonly ObjectChampions $objectChampions,
-        private readonly EntityManagerInterface $manager
+        private readonly EntityManagerInterface $manager,
+        private readonly LoggerInterface $logger
     )
     {
 
@@ -38,5 +39,6 @@ class SetDataChampions
 
         }
         $this->manager->flush();
+        $this->logger->info("Loading champions to database.");
     }
 }

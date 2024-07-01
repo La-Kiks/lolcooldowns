@@ -16,7 +16,8 @@ class SetDataSpells
         private readonly ChampionRepository $championRepository,
         private readonly SpellRepository $spellRepository,
         private readonly ObjectChampions $objectChampions,
-        private readonly EntityManagerInterface $manager
+        private readonly EntityManagerInterface $manager,
+        private readonly LoggerInterface $logger
     )
     {
 
@@ -48,8 +49,8 @@ class SetDataSpells
                     $champion->addSpell($spell);
                 }
             }
-            $this->manager->flush();
         }
-
+        $this->manager->flush();
+        $this->logger->info("Loading spells to database.");
     }
 }

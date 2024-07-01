@@ -25,9 +25,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
 class LoadChampionsDataCommand extends Command
 {
     public function __construct(private readonly SetDataChampions       $setDataChampions,
-                                private readonly SetDataSpells          $setDataSpells,
-                                private readonly ObjectChampions        $objectChampions,
-                                private readonly EntityManagerInterface $em)
+                                private readonly SetDataSpells          $setDataSpells)
     {
         parent::__construct();
     }

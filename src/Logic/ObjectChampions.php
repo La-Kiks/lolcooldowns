@@ -625,6 +625,7 @@ class ObjectChampions
     public function getChampionsData(){
         $championsPath = $this->publicDir . '/champions.json';
         $json = file_get_contents($championsPath);
+        $this->logger->info("Fetching data from the champions.json");
         return json_decode($json, true);
     }
 
