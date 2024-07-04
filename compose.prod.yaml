@@ -6,3 +6,10 @@ services:
       target: frankenphp_prod
     environment:
       APP_SECRET: ${APP_SECRET}
+      SERVER_NAME: ${SERVER_NAME:-http://localhost}, php:80
+      TRUSTED_PROXIES: ${TRUSTED_PROXIES:-127.0.0.0/8,10.0.0.0/8,172.16.0.0/12,192.168.0.0/16,REMOTE_ADDR}
+    ports:
+      # HTTP
+      - target: 80
+        published: ${HTTP_PORT:-4080}
+        protocol: tcp
