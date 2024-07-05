@@ -3,8 +3,8 @@
 namespace App\SetData;
 
 use App\Entity\Spell;
-use App\Logic\ObjectChampions;
 use App\Repository\ChampionRepository;
+use App\Repository\Logic\ObjectChampions;
 use App\Repository\SpellRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Psr\Log\LoggerInterface;

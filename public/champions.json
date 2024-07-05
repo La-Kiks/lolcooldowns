@@ -9736,11 +9736,11 @@
                 "name": "Steel Tempest",
                 "icon": "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/q",
                 "cooldown": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
                 ],
                 "affectedByCdr": false
             },
@@ -9796,11 +9796,11 @@
                 "name": "Mortal Steel",
                 "icon": "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/q",
                 "cooldown": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                    4,
+                    4,
+                    4,
+                    4,
+                    4
                 ],
                 "affectedByCdr": false
             },
@@ -9808,11 +9808,11 @@
                 "name": "Spirit Cleave",
                 "icon": "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/w",
                 "cooldown": [
-                    0,
-                    0,
-                    0,
-                    0,
-                    0
+                    14,
+                    14,
+                    14,
+                    14,
+                    14
                 ],
                 "affectedByCdr": false
             },

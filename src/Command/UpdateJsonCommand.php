@@ -2,8 +2,8 @@
 
 namespace App\Command;
 
-use App\Logic\ObjectChampions;
-use App\Logic\Versions;
+use App\Repository\Logic\ObjectChampions;
+use App\Repository\Logic\Versions;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;

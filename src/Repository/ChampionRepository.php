@@ -23,12 +23,12 @@ class ChampionRepository extends ServiceEntityRepository
 
     public function findBySearch(SearchData $searchData): PaginationInterface
     {
-        $qb = $this->createQueryBuilder('c')
-            ->orderBy('c.name', 'ASC');
+        $qb = $this->createQueryBuilder('c');
 
         if($searchData->champions){
             $qb->andWhere('c.name IN (:champions)')
-                ->setParameter('champions', array_column($searchData->champions, 'champion') );
+                ->setParameter('champions', array_column($searchData->champions, 'champion') )
+            ;
         }
 
         return $this->paginator->paginate($qb, $searchData->page, 10);
