@@ -267,6 +267,63 @@ class ObjectChampions
             ]
         ];
         // Jayce
+        $championData = $merakiData['Jayce'];
+        $filteredData['Jayce'] = [
+            'id' => $championData['id'],
+            'key' => $championData['key'],
+            'name' => $championData['name'],
+            'icon' => $championData['icon'],
+            'abilities' => [
+                'P' => [
+                    'name' => $championData['abilities']['P']['0']['name'],
+                    'icon' => $championData['abilities']['P']['0']['icon'],
+                    'cooldown' => $championData['abilities']['P']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['P']['0']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'Q' => [
+                    'name' => $championData['abilities']['Q']['0']['name'],
+                    'icon' => $championData['abilities']['Q']['0']['icon'],
+                    'cooldown' => $championData['abilities']['Q']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['Q']['0']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'W' => [
+                    'name' => $championData['abilities']['W']['0']['name'],
+                    'icon' => $championData['abilities']['W']['0']['icon'],
+                    'cooldown' => $championData['abilities']['W']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['W']['0']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'E' => [
+                    'name' => $championData['abilities']['E']['0']['name'],
+                    'icon' => $championData['abilities']['E']['0']['icon'],
+                    'cooldown' => $championData['abilities']['E']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['E']['0']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'R' => [
+                    'name' => $championData['abilities']['R']['0']['name'],
+                    'icon' => $championData['abilities']['R']['0']['icon'],
+                    'cooldown' => $championData['abilities']['R']['0']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['R']['0']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'Q1' => [
+                    'name' => $championData['abilities']['Q']['1']['name'],
+                    'icon' => "https://raw.communitydragon.org/latest/game/assets/characters/jayce/hud/icons2d/jayceq_ranged.png",
+                    'cooldown' => $championData['abilities']['Q']['1']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['Q']['1']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'W1' => [
+                    'name' => $championData['abilities']['W']['1']['name'],
+                    'icon' => "https://raw.communitydragon.org/latest/game/assets/characters/jayce/hud/icons2d/jaycew_ranged.png",
+                    'cooldown' => $championData['abilities']['W']['1']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['W']['1']['cooldown']['affectedByCdr'] ?? null,
+                ],
+                'E1' => [
+                    'name' => $championData['abilities']['E']['1']['name'],
+                    'icon' => "https://raw.communitydragon.org/latest/game/assets/characters/jayce/hud/icons2d/jaycee_ranged.png",
+                    'cooldown' => $championData['abilities']['E']['1']['cooldown']['modifiers']['0']['values'] ?? null,
+                    'affectedByCdr' => $championData['abilities']['E']['1']['cooldown']['affectedByCdr'] ?? null,
+                ],
+            ]
+        ];
         $filteredData['Jayce']['abilities']['R']['cooldown'] = [6];
         // Elise
         $championData = $merakiData['Elise'];
