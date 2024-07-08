@@ -2,8 +2,8 @@
 
 namespace App\Command;
 
-use App\Repository\Logic\ObjectChampions;
-use App\Repository\Logic\Versions;
+use App\Logic\ObjectChampions;
+use App\Logic\Versions;
 use Symfony\Component\Console\Attribute\AsCommand;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
@@ -13,7 +13,7 @@ use Symfony\Component\Console\Output\OutputInterface;
 
 #[AsCommand(
     name: 'app:champions:update:json',
-    description: 'Check if JSON updates are possible, then  update all the JSON. Use -vv to access logger.',
+    description: 'Check if JSON updates are possible, then  update all the JSON. Use -vv to access logger. Option --force',
     aliases: ['app:update']
 )]
 class UpdateJsonCommand extends Command

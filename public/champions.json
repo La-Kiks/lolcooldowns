@@ -849,13 +849,13 @@
                 "name": "Void Surge",
                 "icon": "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/q",
                 "cooldown": [
-                    1,
-                    1,
-                    1,
-                    1,
-                    1
+                    16,
+                    15,
+                    14,
+                    13,
+                    12
                 ],
-                "affectedByCdr": true
+                "affectedByCdr": false
             },
             "W": {
                 "name": "Above and Below",

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository\Logic;
+namespace App\Logic;
 
 use PHPUnit\Util\Exception;
 use Psr\Log\LoggerInterface;

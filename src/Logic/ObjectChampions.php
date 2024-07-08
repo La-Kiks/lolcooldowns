@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Repository\Logic;
+namespace App\Logic;
 
 use PHPUnit\Util\Exception;
 use Psr\Log\LoggerInterface;
@@ -330,6 +330,9 @@ class ObjectChampions
         // Yone
         $filteredData['Yone']['abilities']['Q']['cooldown'] = [4, 4, 4, 4, 4];
         $filteredData['Yone']['abilities']['W']['cooldown'] = [14, 14, 14, 14, 14];
+        // Belveth
+        $filteredData['Belveth']['abilities']['Q']['cooldown'] = [16, 15, 14, 13, 12];
+        $filteredData['Belveth']['abilities']['Q']['affectedByCdr'] = false;
         // Elise
         $championData = $merakiData['Elise'];
         $filteredData['Elise'] = [
