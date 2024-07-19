@@ -8682,13 +8682,8 @@
             "P": {
                 "name": "Bridge Between",
                 "icon": "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/p",
-                "cooldown": [
-                    50,
-                    40,
-                    30,
-                    20
-                ],
-                "affectedByCdr": false
+                "cooldown": null,
+                "affectedByCdr": null
             },
             "Q": {
                 "name": "Wilding Claw",
@@ -10360,9 +10355,24 @@
                 "name": "Garden of Thorns",
                 "icon": "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/p",
                 "cooldown": [
+                    13.5,
+                    13.25,
                     13,
+                    12.75,
+                    12.5,
+                    12.25,
+                    12,
+                    11.75,
+                    11.5,
+                    11.25,
                     11,
-                    9
+                    10.75,
+                    10.5,
+                    10.25,
+                    10,
+                    9.75,
+                    9.5,
+                    9.25
                 ],
                 "affectedByCdr": false
             },
@@ -10409,6 +10419,66 @@
                     110,
                     100,
                     90
+                ],
+                "affectedByCdr": true
+            }
+        }
+    },
+    "Aurora": {
+        "id": "Aurora",
+        "key": "893",
+        "name": "Aurora",
+        "icon": "https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/aurora_square_0.aurora.png",
+        "abilities": {
+            "P": {
+                "name": "Spirit Abjuration",
+                "icon": "https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/aurorapassive.aurora.png",
+                "cooldown": null,
+                "affectedByCdr": null
+            },
+            "Q": {
+                "name": "Twofold Hex",
+                "icon": "https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/auroraq.aurora.png",
+                "cooldown": [
+                    8,
+                    7.5,
+                    7,
+                    6.5,
+                    6
+                ],
+                "affectedByCdr": true
+            },
+            "W": {
+                "name": "Across the Veil",
+                "icon": "https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/auroraw.aurora.png",
+                "cooldown": [
+                    20,
+                    19,
+                    18,
+                    17,
+                    16
+                ],
+                "affectedByCdr": true
+            },
+            "E": {
+                "name": "The Weirding",
+                "icon": "https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/aurorae.aurora.png",
+                "cooldown": [
+                    15,
+                    14,
+                    13,
+                    12,
+                    11
+                ],
+                "affectedByCdr": true
+            },
+            "R": {
+                "name": "Between Worlds",
+                "icon": "https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/aurorar.aurora.png",
+                "cooldown": [
+                    140,
+                    120,
+                    100
                 ],
                 "affectedByCdr": true
             }

@@ -607,6 +607,48 @@ class ObjectChampions
         ];
         // Kled Q2 lvl 1-18
 
+        // TODO : Remove this once Meraki is updated (next patch 14.15)
+        // Aurora release :
+        $filteredData['Aurora'] = [
+            'id' => 'Aurora',
+            'key' => '893',
+            'name' => 'Aurora',
+            'icon' => 'https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/aurora_square_0.aurora.png',
+            'abilities' => [
+                'P' => [
+                    'name' => 'Spirit Abjuration',
+                    'icon' => 'https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/aurorapassive.aurora.png',
+                    'cooldown' => null,
+                    'affectedByCdr' => null,
+                ],
+                'Q' => [
+                    'name' => 'Twofold Hex',
+                    'icon' => 'https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/auroraq.aurora.png',
+                    'cooldown' => [8, 7.5, 7, 6.5, 6],
+                    'affectedByCdr' => true,
+                ],
+                'W' => [
+                    'name' => 'Across the Veil',
+                    'icon' => 'https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/auroraw.aurora.png',
+                    'cooldown' => [20, 19, 18, 17, 16],
+                    'affectedByCdr' => true,
+                ],
+                'E' => [
+                    'name' => 'The Weirding',
+                    'icon' => 'https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/aurorae.aurora.png',
+                    'cooldown' => [15, 14, 13, 12, 11],
+                    'affectedByCdr' => true,
+                ],
+                'R' => [
+                    'name' => 'Between Worlds',
+                    'icon' => 'https://raw.communitydragon.org/latest/game/assets/characters/aurora/hud/icons2d/aurorar.aurora.png',
+                    'cooldown' => [140, 120, 100],
+                    'affectedByCdr' => true,
+                ]
+            ]
+        ];
+
+
         return $filteredData;
     }
 
