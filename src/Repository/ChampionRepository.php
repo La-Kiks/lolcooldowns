@@ -33,5 +33,16 @@ class ChampionRepository extends ServiceEntityRepository
 
         return $this->paginator->paginate($qb, $searchData->page, 10);
     }
+
+    public function deleteChampionByName($name)
+    {
+        $qb = $this->createQueryBuilder('c')
+            ->delete()
+            ->where('c.name = :name ')
+            ->setParameter('name', $name)
+        ;
+
+        return $qb->getQuery()->execute();
+    }
     
 }
