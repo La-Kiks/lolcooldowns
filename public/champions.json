@@ -3,7 +3,7 @@
         "id": 266,
         "key": "Aatrox",
         "name": "Aatrox",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Aatrox.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Aatrox.png",
         "abilities": {
             "P": {
                 "name": "Deathbringer Stance",
@@ -82,7 +82,7 @@
         "id": 103,
         "key": "Ahri",
         "name": "Ahri",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Ahri.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Ahri.png",
         "abilities": {
             "P": {
                 "name": "Essence Theft",
@@ -142,7 +142,7 @@
         "id": 84,
         "key": "Akali",
         "name": "Akali",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Akali.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Akali.png",
         "abilities": {
             "P": {
                 "name": "Assassin's Mark",
@@ -202,7 +202,7 @@
         "id": 166,
         "key": "Akshan",
         "name": "Akshan",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Akshan.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Akshan.png",
         "abilities": {
             "P": {
                 "name": "Dirty Fighting",
@@ -267,7 +267,7 @@
         "id": 12,
         "key": "Alistar",
         "name": "Alistar",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Alistar.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Alistar.png",
         "abilities": {
             "P": {
                 "name": "Triumphant Roar",
@@ -331,7 +331,7 @@
         "id": 32,
         "key": "Amumu",
         "name": "Amumu",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Amumu.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Amumu.png",
         "abilities": {
             "P": {
                 "name": "Cursed Touch",
@@ -391,7 +391,7 @@
         "id": 34,
         "key": "Anivia",
         "name": "Anivia",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Anivia.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Anivia.png",
         "abilities": {
             "P": {
                 "name": "Rebirth",
@@ -455,7 +455,7 @@
         "id": 1,
         "key": "Annie",
         "name": "Annie",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Annie.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Annie.png",
         "abilities": {
             "P": {
                 "name": "Pyromania",
@@ -515,7 +515,7 @@
         "id": 523,
         "key": "Aphelios",
         "name": "Aphelios",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Aphelios.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Aphelios.png",
         "abilities": {
             "P": {
                 "name": "The Hitman and the Seer",
@@ -599,7 +599,7 @@
         "id": 22,
         "key": "Ashe",
         "name": "Ashe",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Ashe.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Ashe.png",
         "abilities": {
             "P": {
                 "name": "Frost Shot",
@@ -653,7 +653,7 @@
         "id": 136,
         "key": "AurelionSol",
         "name": "Aurelion Sol",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/AurelionSol.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/AurelionSol.png",
         "abilities": {
             "P": {
                 "name": "Cosmic Creator",
@@ -713,7 +713,7 @@
         "id": 893,
         "key": "Aurora",
         "name": "Aurora",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Aurora.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Aurora.png",
         "abilities": {
             "P": {
                 "name": "Spirit Abjuration",
@@ -773,7 +773,7 @@
         "id": 268,
         "key": "Azir",
         "name": "Azir",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Azir.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Azir.png",
         "abilities": {
             "P": {
                 "name": "Shurima's Legacy",
@@ -837,7 +837,7 @@
         "id": 432,
         "key": "Bard",
         "name": "Bard",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Bard.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Bard.png",
         "abilities": {
             "P": {
                 "name": "Traveler's Call",
@@ -897,7 +897,7 @@
         "id": 200,
         "key": "Belveth",
         "name": "Bel'Veth",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Belveth.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Belveth.png",
         "abilities": {
             "P": {
                 "name": "Death in Lavender",
@@ -957,7 +957,7 @@
         "id": 53,
         "key": "Blitzcrank",
         "name": "Blitzcrank",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Blitzcrank.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Blitzcrank.png",
         "abilities": {
             "P": {
                 "name": "Mana Barrier",
@@ -1021,7 +1021,7 @@
         "id": 63,
         "key": "Brand",
         "name": "Brand",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Brand.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Brand.png",
         "abilities": {
             "P": {
                 "name": "Blaze",
@@ -1081,7 +1081,7 @@
         "id": 201,
         "key": "Braum",
         "name": "Braum",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Braum.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Braum.png",
         "abilities": {
             "P": {
                 "name": "Concussive Blows",
@@ -1141,7 +1141,7 @@
         "id": 233,
         "key": "Briar",
         "name": "Briar",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Briar.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Briar.png",
         "abilities": {
             "P": {
                 "name": "Crimson Curse",
@@ -1201,7 +1201,7 @@
         "id": 51,
         "key": "Caitlyn",
         "name": "Caitlyn",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Caitlyn.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Caitlyn.png",
         "abilities": {
             "P": {
                 "name": "Headshot",
@@ -1261,7 +1261,7 @@
         "id": 164,
         "key": "Camille",
         "name": "Camille",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Camille.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Camille.png",
         "abilities": {
             "P": {
                 "name": "Adaptive Defenses",
@@ -1325,7 +1325,7 @@
         "id": 69,
         "key": "Cassiopeia",
         "name": "Cassiopeia",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Cassiopeia.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Cassiopeia.png",
         "abilities": {
             "P": {
                 "name": "Serpentine Grace",
@@ -1385,7 +1385,7 @@
         "id": 31,
         "key": "Chogath",
         "name": "Cho'Gath",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Chogath.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Chogath.png",
         "abilities": {
             "P": {
                 "name": "Carnivore",
@@ -1445,7 +1445,7 @@
         "id": 42,
         "key": "Corki",
         "name": "Corki",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Corki.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Corki.png",
         "abilities": {
             "P": {
                 "name": "Hextech Munitions",
@@ -1505,7 +1505,7 @@
         "id": 122,
         "key": "Darius",
         "name": "Darius",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Darius.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Darius.png",
         "abilities": {
             "P": {
                 "name": "Hemorrhage",
@@ -1565,7 +1565,7 @@
         "id": 131,
         "key": "Diana",
         "name": "Diana",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Diana.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Diana.png",
         "abilities": {
             "P": {
                 "name": "Moonsilver Blade",
@@ -1625,7 +1625,7 @@
         "id": 36,
         "key": "DrMundo",
         "name": "Dr. Mundo",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/DrMundo.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/DrMundo.png",
         "abilities": {
             "P": {
                 "name": "Goes Where He Pleases",
@@ -1704,7 +1704,7 @@
         "id": 119,
         "key": "Draven",
         "name": "Draven",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Draven.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Draven.png",
         "abilities": {
             "P": {
                 "name": "League of Draven",
@@ -1764,7 +1764,7 @@
         "id": 245,
         "key": "Ekko",
         "name": "Ekko",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Ekko.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Ekko.png",
         "abilities": {
             "P": {
                 "name": "Z-Drive Resonance",
@@ -1824,7 +1824,7 @@
         "id": 60,
         "key": "Elise",
         "name": "Elise",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Elise.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Elise.png",
         "abilities": {
             "P": {
                 "name": "Spider Queen",
@@ -1920,7 +1920,7 @@
         "id": 28,
         "key": "Evelynn",
         "name": "Evelynn",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Evelynn.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Evelynn.png",
         "abilities": {
             "P": {
                 "name": "Demon Shade",
@@ -1980,7 +1980,7 @@
         "id": 81,
         "key": "Ezreal",
         "name": "Ezreal",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Ezreal.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Ezreal.png",
         "abilities": {
             "P": {
                 "name": "Rising Spell Force",
@@ -2040,7 +2040,7 @@
         "id": 9,
         "key": "Fiddlesticks",
         "name": "Fiddlesticks",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Fiddlesticks.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Fiddlesticks.png",
         "abilities": {
             "P": {
                 "name": "A Harmless Scarecrow",
@@ -2100,7 +2100,7 @@
         "id": 114,
         "key": "Fiora",
         "name": "Fiora",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Fiora.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Fiora.png",
         "abilities": {
             "P": {
                 "name": "Duelist's Dance",
@@ -2160,7 +2160,7 @@
         "id": 105,
         "key": "Fizz",
         "name": "Fizz",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Fizz.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Fizz.png",
         "abilities": {
             "P": {
                 "name": "Nimble Fighter",
@@ -2220,7 +2220,7 @@
         "id": 3,
         "key": "Galio",
         "name": "Galio",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Galio.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Galio.png",
         "abilities": {
             "P": {
                 "name": "Colossal Smash",
@@ -2284,7 +2284,7 @@
         "id": 41,
         "key": "Gangplank",
         "name": "Gangplank",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Gangplank.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Gangplank.png",
         "abilities": {
             "P": {
                 "name": "Trial by Fire",
@@ -2348,7 +2348,7 @@
         "id": 86,
         "key": "Garen",
         "name": "Garen",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Garen.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Garen.png",
         "abilities": {
             "P": {
                 "name": "Perseverance",
@@ -2408,7 +2408,7 @@
         "id": 150,
         "key": "Gnar",
         "name": "Gnar",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Gnar.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Gnar.png",
         "abilities": {
             "P": {
                 "name": "Rage Gene",
@@ -2498,7 +2498,7 @@
         "id": 79,
         "key": "Gragas",
         "name": "Gragas",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Gragas.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Gragas.png",
         "abilities": {
             "P": {
                 "name": "Happy Hour",
@@ -2563,7 +2563,7 @@
         "id": 104,
         "key": "Graves",
         "name": "Graves",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Graves.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Graves.png",
         "abilities": {
             "P": {
                 "name": "New Destiny",
@@ -2623,7 +2623,7 @@
         "id": 887,
         "key": "Gwen",
         "name": "Gwen",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Gwen.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Gwen.png",
         "abilities": {
             "P": {
                 "name": "Thousand Cuts",
@@ -2683,7 +2683,7 @@
         "id": 120,
         "key": "Hecarim",
         "name": "Hecarim",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Hecarim.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Hecarim.png",
         "abilities": {
             "P": {
                 "name": "Warpath",
@@ -2743,7 +2743,7 @@
         "id": 74,
         "key": "Heimerdinger",
         "name": "Heimerdinger",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Heimerdinger.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Heimerdinger.png",
         "abilities": {
             "P": {
                 "name": "Hextech Affinity",
@@ -2803,7 +2803,7 @@
         "id": 910,
         "key": "Hwei",
         "name": "Hwei",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Hwei.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Hwei.png",
         "abilities": {
             "P": {
                 "name": "Signature of the Visionary",
@@ -2863,7 +2863,7 @@
         "id": 420,
         "key": "Illaoi",
         "name": "Illaoi",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Illaoi.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Illaoi.png",
         "abilities": {
             "P": {
                 "name": "Prophet of an Elder God",
@@ -2942,7 +2942,7 @@
         "id": 39,
         "key": "Irelia",
         "name": "Irelia",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Irelia.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Irelia.png",
         "abilities": {
             "P": {
                 "name": "Ionian Fervor",
@@ -3002,7 +3002,7 @@
         "id": 427,
         "key": "Ivern",
         "name": "Ivern",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Ivern.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Ivern.png",
         "abilities": {
             "P": {
                 "name": "Friend of the Forest",
@@ -3062,7 +3062,7 @@
         "id": 40,
         "key": "Janna",
         "name": "Janna",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Janna.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Janna.png",
         "abilities": {
             "P": {
                 "name": "Tailwind",
@@ -3122,7 +3122,7 @@
         "id": 59,
         "key": "JarvanIV",
         "name": "Jarvan IV",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/JarvanIV.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/JarvanIV.png",
         "abilities": {
             "P": {
                 "name": "Martial Cadence",
@@ -3182,7 +3182,7 @@
         "id": 24,
         "key": "Jax",
         "name": "Jax",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Jax.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Jax.png",
         "abilities": {
             "P": {
                 "name": "Relentless Assault",
@@ -3242,7 +3242,7 @@
         "id": 126,
         "key": "Jayce",
         "name": "Jayce",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Jayce.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Jayce.png",
         "abilities": {
             "P": {
                 "name": "Hextech Capacitor",
@@ -3342,7 +3342,7 @@
         "id": 202,
         "key": "Jhin",
         "name": "Jhin",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Jhin.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Jhin.png",
         "abilities": {
             "P": {
                 "name": "Whisper",
@@ -3402,7 +3402,7 @@
         "id": 222,
         "key": "Jinx",
         "name": "Jinx",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Jinx.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Jinx.png",
         "abilities": {
             "P": {
                 "name": "Get Excited!",
@@ -3462,7 +3462,7 @@
         "id": 897,
         "key": "KSante",
         "name": "K'Sante",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/KSante.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/KSante.png",
         "abilities": {
             "P": {
                 "name": "Dauntless Instinct",
@@ -3522,7 +3522,7 @@
         "id": 145,
         "key": "Kaisa",
         "name": "Kai'Sa",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Kaisa.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Kaisa.png",
         "abilities": {
             "P": {
                 "name": "Second Skin",
@@ -3582,7 +3582,7 @@
         "id": 429,
         "key": "Kalista",
         "name": "Kalista",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Kalista.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Kalista.png",
         "abilities": {
             "P": {
                 "name": "Martial Poise",
@@ -3642,7 +3642,7 @@
         "id": 43,
         "key": "Karma",
         "name": "Karma",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Karma.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Karma.png",
         "abilities": {
             "P": {
                 "name": "Gathering Fire",
@@ -3703,7 +3703,7 @@
         "id": 30,
         "key": "Karthus",
         "name": "Karthus",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Karthus.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Karthus.png",
         "abilities": {
             "P": {
                 "name": "Death Defied",
@@ -3763,7 +3763,7 @@
         "id": 38,
         "key": "Kassadin",
         "name": "Kassadin",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Kassadin.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Kassadin.png",
         "abilities": {
             "P": {
                 "name": "Void Stone",
@@ -3823,7 +3823,7 @@
         "id": 55,
         "key": "Katarina",
         "name": "Katarina",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Katarina.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Katarina.png",
         "abilities": {
             "P": {
                 "name": "Voracity",
@@ -3883,7 +3883,7 @@
         "id": 10,
         "key": "Kayle",
         "name": "Kayle",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Kayle.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Kayle.png",
         "abilities": {
             "P": {
                 "name": "Divine Ascent",
@@ -3943,7 +3943,7 @@
         "id": 141,
         "key": "Kayn",
         "name": "Kayn",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Kayn.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Kayn.png",
         "abilities": {
             "P": {
                 "name": "The Darkin Scythe",
@@ -4003,7 +4003,7 @@
         "id": 85,
         "key": "Kennen",
         "name": "Kennen",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Kennen.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Kennen.png",
         "abilities": {
             "P": {
                 "name": "Mark of the Storm",
@@ -4063,7 +4063,7 @@
         "id": 121,
         "key": "Khazix",
         "name": "Kha'Zix",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Khazix.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Khazix.png",
         "abilities": {
             "P": {
                 "name": "Unseen Threat",
@@ -4123,7 +4123,7 @@
         "id": 203,
         "key": "Kindred",
         "name": "Kindred",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Kindred.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Kindred.png",
         "abilities": {
             "P": {
                 "name": "Mark of the Kindred",
@@ -4183,7 +4183,7 @@
         "id": 240,
         "key": "Kled",
         "name": "Kled",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Kled.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Kled.png",
         "abilities": {
             "P": {
                 "name": "Skaarl the Cowardly Lizard",
@@ -4243,7 +4243,7 @@
         "id": 96,
         "key": "KogMaw",
         "name": "Kog'Maw",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/KogMaw.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/KogMaw.png",
         "abilities": {
             "P": {
                 "name": "Icathian Surprise",
@@ -4303,7 +4303,7 @@
         "id": 7,
         "key": "Leblanc",
         "name": "LeBlanc",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Leblanc.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Leblanc.png",
         "abilities": {
             "P": {
                 "name": "Mirror Image",
@@ -4367,7 +4367,7 @@
         "id": 64,
         "key": "LeeSin",
         "name": "Lee Sin",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/LeeSin.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/LeeSin.png",
         "abilities": {
             "P": {
                 "name": "Flurry",
@@ -4427,7 +4427,7 @@
         "id": 89,
         "key": "Leona",
         "name": "Leona",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Leona.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Leona.png",
         "abilities": {
             "P": {
                 "name": "Sunlight",
@@ -4487,7 +4487,7 @@
         "id": 876,
         "key": "Lillia",
         "name": "Lillia",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Lillia.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Lillia.png",
         "abilities": {
             "P": {
                 "name": "Dream-Laden Bough",
@@ -4547,7 +4547,7 @@
         "id": 127,
         "key": "Lissandra",
         "name": "Lissandra",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Lissandra.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Lissandra.png",
         "abilities": {
             "P": {
                 "name": "Iceborn Subjugation",
@@ -4607,7 +4607,7 @@
         "id": 236,
         "key": "Lucian",
         "name": "Lucian",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Lucian.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Lucian.png",
         "abilities": {
             "P": {
                 "name": "Lightslinger",
@@ -4667,7 +4667,7 @@
         "id": 117,
         "key": "Lulu",
         "name": "Lulu",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Lulu.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Lulu.png",
         "abilities": {
             "P": {
                 "name": "Pix, Faerie Companion",
@@ -4727,7 +4727,7 @@
         "id": 99,
         "key": "Lux",
         "name": "Lux",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Lux.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Lux.png",
         "abilities": {
             "P": {
                 "name": "Illumination",
@@ -4787,7 +4787,7 @@
         "id": 54,
         "key": "Malphite",
         "name": "Malphite",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Malphite.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Malphite.png",
         "abilities": {
             "P": {
                 "name": "Granite Shield",
@@ -4851,7 +4851,7 @@
         "id": 90,
         "key": "Malzahar",
         "name": "Malzahar",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Malzahar.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Malzahar.png",
         "abilities": {
             "P": {
                 "name": "Void Shift",
@@ -4916,7 +4916,7 @@
         "id": 57,
         "key": "Maokai",
         "name": "Maokai",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Maokai.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Maokai.png",
         "abilities": {
             "P": {
                 "name": "Sap Magic",
@@ -4956,11 +4956,11 @@
                 "name": "Sapling Toss",
                 "icon": "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/e",
                 "cooldown": [
+                    18,
+                    17,
                     16,
                     15,
-                    14,
-                    13,
-                    12
+                    14
                 ],
                 "affectedByCdr": true
             },
@@ -4980,7 +4980,7 @@
         "id": 11,
         "key": "MasterYi",
         "name": "Master Yi",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/MasterYi.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/MasterYi.png",
         "abilities": {
             "P": {
                 "name": "Double Strike",
@@ -5040,7 +5040,7 @@
         "id": 902,
         "key": "Milio",
         "name": "Milio",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Milio.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Milio.png",
         "abilities": {
             "P": {
                 "name": "Fired Up!",
@@ -5100,7 +5100,7 @@
         "id": 21,
         "key": "MissFortune",
         "name": "Miss Fortune",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/MissFortune.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/MissFortune.png",
         "abilities": {
             "P": {
                 "name": "Love Tap",
@@ -5160,7 +5160,7 @@
         "id": 82,
         "key": "Mordekaiser",
         "name": "Mordekaiser",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Mordekaiser.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Mordekaiser.png",
         "abilities": {
             "P": {
                 "name": "Darkness Rise",
@@ -5220,7 +5220,7 @@
         "id": 25,
         "key": "Morgana",
         "name": "Morgana",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Morgana.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Morgana.png",
         "abilities": {
             "P": {
                 "name": "Soul Siphon",
@@ -5280,7 +5280,7 @@
         "id": 950,
         "key": "Naafiri",
         "name": "Naafiri",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Naafiri.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Naafiri.png",
         "abilities": {
             "P": {
                 "name": "We Are More",
@@ -5344,7 +5344,7 @@
         "id": 267,
         "key": "Nami",
         "name": "Nami",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Nami.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Nami.png",
         "abilities": {
             "P": {
                 "name": "Surging Tides",
@@ -5404,7 +5404,7 @@
         "id": 75,
         "key": "Nasus",
         "name": "Nasus",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Nasus.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Nasus.png",
         "abilities": {
             "P": {
                 "name": "Soul Eater",
@@ -5464,7 +5464,7 @@
         "id": 111,
         "key": "Nautilus",
         "name": "Nautilus",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Nautilus.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Nautilus.png",
         "abilities": {
             "P": {
                 "name": "Staggering Blow",
@@ -5524,7 +5524,7 @@
         "id": 518,
         "key": "Neeko",
         "name": "Neeko",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Neeko.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Neeko.png",
         "abilities": {
             "P": {
                 "name": "Inherent Glamour",
@@ -5584,7 +5584,7 @@
         "id": 76,
         "key": "Nidalee",
         "name": "Nidalee",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Nidalee.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Nidalee.png",
         "abilities": {
             "P": {
                 "name": "Prowl",
@@ -5682,7 +5682,7 @@
         "id": 895,
         "key": "Nilah",
         "name": "Nilah",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Nilah.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Nilah.png",
         "abilities": {
             "P": {
                 "name": "Joy Unending",
@@ -5742,7 +5742,7 @@
         "id": 56,
         "key": "Nocturne",
         "name": "Nocturne",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Nocturne.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Nocturne.png",
         "abilities": {
             "P": {
                 "name": "Umbra Blades",
@@ -5806,7 +5806,7 @@
         "id": 20,
         "key": "Nunu",
         "name": "Nunu & Willump",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Nunu.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Nunu.png",
         "abilities": {
             "P": {
                 "name": "Call of the Freljord",
@@ -5866,7 +5866,7 @@
         "id": 2,
         "key": "Olaf",
         "name": "Olaf",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Olaf.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Olaf.png",
         "abilities": {
             "P": {
                 "name": "Berserker Rage",
@@ -5926,7 +5926,7 @@
         "id": 61,
         "key": "Orianna",
         "name": "Orianna",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Orianna.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Orianna.png",
         "abilities": {
             "P": {
                 "name": "Clockwork Windup",
@@ -5986,7 +5986,7 @@
         "id": 516,
         "key": "Ornn",
         "name": "Ornn",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Ornn.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Ornn.png",
         "abilities": {
             "P": {
                 "name": "Living Forge",
@@ -6046,7 +6046,7 @@
         "id": 80,
         "key": "Pantheon",
         "name": "Pantheon",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Pantheon.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Pantheon.png",
         "abilities": {
             "P": {
                 "name": "Mortal Will",
@@ -6106,7 +6106,7 @@
         "id": 78,
         "key": "Poppy",
         "name": "Poppy",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Poppy.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Poppy.png",
         "abilities": {
             "P": {
                 "name": "Iron Ambassador",
@@ -6170,7 +6170,7 @@
         "id": 555,
         "key": "Pyke",
         "name": "Pyke",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Pyke.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Pyke.png",
         "abilities": {
             "P": {
                 "name": "Gift of the Drowned Ones",
@@ -6230,7 +6230,7 @@
         "id": 246,
         "key": "Qiyana",
         "name": "Qiyana",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Qiyana.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Qiyana.png",
         "abilities": {
             "P": {
                 "name": "Royal Privilege",
@@ -6290,7 +6290,7 @@
         "id": 133,
         "key": "Quinn",
         "name": "Quinn",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Quinn.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Quinn.png",
         "abilities": {
             "P": {
                 "name": "Harrier",
@@ -6350,7 +6350,7 @@
         "id": 497,
         "key": "Rakan",
         "name": "Rakan",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Rakan.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Rakan.png",
         "abilities": {
             "P": {
                 "name": "Fey Feathers",
@@ -6429,7 +6429,7 @@
         "id": 33,
         "key": "Rammus",
         "name": "Rammus",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Rammus.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Rammus.png",
         "abilities": {
             "P": {
                 "name": "Spiked Shell",
@@ -6489,7 +6489,7 @@
         "id": 421,
         "key": "RekSai",
         "name": "Rek'Sai",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/RekSai.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/RekSai.png",
         "abilities": {
             "P": {
                 "name": "Fury of the Xer'Sai",
@@ -6585,7 +6585,7 @@
         "id": 526,
         "key": "Rell",
         "name": "Rell",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Rell.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Rell.png",
         "abilities": {
             "P": {
                 "name": "Break the Mold",
@@ -6645,7 +6645,7 @@
         "id": 888,
         "key": "Renata",
         "name": "Renata Glasc",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Renata.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Renata.png",
         "abilities": {
             "P": {
                 "name": "Leverage",
@@ -6705,7 +6705,7 @@
         "id": 58,
         "key": "Renekton",
         "name": "Renekton",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Renekton.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Renekton.png",
         "abilities": {
             "P": {
                 "name": "Reign of Anger",
@@ -6765,7 +6765,7 @@
         "id": 107,
         "key": "Rengar",
         "name": "Rengar",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Rengar.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Rengar.png",
         "abilities": {
             "P": {
                 "name": "Unseen Predator",
@@ -6825,7 +6825,7 @@
         "id": 92,
         "key": "Riven",
         "name": "Riven",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Riven.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Riven.png",
         "abilities": {
             "P": {
                 "name": "Runic Blade",
@@ -6885,7 +6885,7 @@
         "id": 68,
         "key": "Rumble",
         "name": "Rumble",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Rumble.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Rumble.png",
         "abilities": {
             "P": {
                 "name": "Junkyard Titan",
@@ -6945,7 +6945,7 @@
         "id": 13,
         "key": "Ryze",
         "name": "Ryze",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Ryze.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Ryze.png",
         "abilities": {
             "P": {
                 "name": "Arcane Mastery",
@@ -7005,7 +7005,7 @@
         "id": 360,
         "key": "Samira",
         "name": "Samira",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Samira.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Samira.png",
         "abilities": {
             "P": {
                 "name": "Daredevil Impulse",
@@ -7065,7 +7065,7 @@
         "id": 113,
         "key": "Sejuani",
         "name": "Sejuani",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Sejuani.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Sejuani.png",
         "abilities": {
             "P": {
                 "name": "Fury of the North",
@@ -7125,7 +7125,7 @@
         "id": 235,
         "key": "Senna",
         "name": "Senna",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Senna.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Senna.png",
         "abilities": {
             "P": {
                 "name": "Absolution",
@@ -7185,7 +7185,7 @@
         "id": 147,
         "key": "Seraphine",
         "name": "Seraphine",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Seraphine.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Seraphine.png",
         "abilities": {
             "P": {
                 "name": "Stage Presence",
@@ -7245,7 +7245,7 @@
         "id": 875,
         "key": "Sett",
         "name": "Sett",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Sett.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Sett.png",
         "abilities": {
             "P": {
                 "name": "Pit Grit",
@@ -7305,7 +7305,7 @@
         "id": 35,
         "key": "Shaco",
         "name": "Shaco",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Shaco.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Shaco.png",
         "abilities": {
             "P": {
                 "name": "Backstab",
@@ -7365,7 +7365,7 @@
         "id": 98,
         "key": "Shen",
         "name": "Shen",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Shen.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Shen.png",
         "abilities": {
             "P": {
                 "name": "Ki Barrier",
@@ -7429,7 +7429,7 @@
         "id": 102,
         "key": "Shyvana",
         "name": "Shyvana",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Shyvana.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Shyvana.png",
         "abilities": {
             "P": {
                 "name": "Fury of the Dragonborn",
@@ -7485,7 +7485,7 @@
         "id": 27,
         "key": "Singed",
         "name": "Singed",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Singed.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Singed.png",
         "abilities": {
             "P": {
                 "name": "Noxious Slipstream",
@@ -7545,7 +7545,7 @@
         "id": 14,
         "key": "Sion",
         "name": "Sion",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Sion.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Sion.png",
         "abilities": {
             "P": {
                 "name": "Glory in Death",
@@ -7605,7 +7605,7 @@
         "id": 15,
         "key": "Sivir",
         "name": "Sivir",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Sivir.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Sivir.png",
         "abilities": {
             "P": {
                 "name": "Fleet of Foot",
@@ -7665,7 +7665,7 @@
         "id": 72,
         "key": "Skarner",
         "name": "Skarner",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Skarner.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Skarner.png",
         "abilities": {
             "P": {
                 "name": "Threads of Vibration",
@@ -7725,7 +7725,7 @@
         "id": 901,
         "key": "Smolder",
         "name": "Smolder",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Smolder.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Smolder.png",
         "abilities": {
             "P": {
                 "name": "Dragon Practice",
@@ -7785,7 +7785,7 @@
         "id": 37,
         "key": "Sona",
         "name": "Sona",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Sona.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Sona.png",
         "abilities": {
             "P": {
                 "name": "Power Chord",
@@ -7845,7 +7845,7 @@
         "id": 16,
         "key": "Soraka",
         "name": "Soraka",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Soraka.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Soraka.png",
         "abilities": {
             "P": {
                 "name": "Salvation",
@@ -7905,7 +7905,7 @@
         "id": 50,
         "key": "Swain",
         "name": "Swain",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Swain.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Swain.png",
         "abilities": {
             "P": {
                 "name": "Ravenous Flock",
@@ -7965,7 +7965,7 @@
         "id": 517,
         "key": "Sylas",
         "name": "Sylas",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Sylas.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Sylas.png",
         "abilities": {
             "P": {
                 "name": "Petricite Burst",
@@ -8025,7 +8025,7 @@
         "id": 134,
         "key": "Syndra",
         "name": "Syndra",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Syndra.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Syndra.png",
         "abilities": {
             "P": {
                 "name": "Transcendent",
@@ -8085,7 +8085,7 @@
         "id": 223,
         "key": "TahmKench",
         "name": "Tahm Kench",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/TahmKench.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/TahmKench.png",
         "abilities": {
             "P": {
                 "name": "An Acquired Taste",
@@ -8145,7 +8145,7 @@
         "id": 163,
         "key": "Taliyah",
         "name": "Taliyah",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Taliyah.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Taliyah.png",
         "abilities": {
             "P": {
                 "name": "Rock Surfing",
@@ -8209,7 +8209,7 @@
         "id": 91,
         "key": "Talon",
         "name": "Talon",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Talon.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Talon.png",
         "abilities": {
             "P": {
                 "name": "Blade's End",
@@ -8269,7 +8269,7 @@
         "id": 44,
         "key": "Taric",
         "name": "Taric",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Taric.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Taric.png",
         "abilities": {
             "P": {
                 "name": "Bravado",
@@ -8329,7 +8329,7 @@
         "id": 17,
         "key": "Teemo",
         "name": "Teemo",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Teemo.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Teemo.png",
         "abilities": {
             "P": {
                 "name": "Guerrilla Warfare",
@@ -8383,7 +8383,7 @@
         "id": 412,
         "key": "Thresh",
         "name": "Thresh",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Thresh.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Thresh.png",
         "abilities": {
             "P": {
                 "name": "Damnation",
@@ -8443,7 +8443,7 @@
         "id": 18,
         "key": "Tristana",
         "name": "Tristana",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Tristana.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Tristana.png",
         "abilities": {
             "P": {
                 "name": "Draw a Bead",
@@ -8503,7 +8503,7 @@
         "id": 48,
         "key": "Trundle",
         "name": "Trundle",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Trundle.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Trundle.png",
         "abilities": {
             "P": {
                 "name": "King's Tribute",
@@ -8563,7 +8563,7 @@
         "id": 23,
         "key": "Tryndamere",
         "name": "Tryndamere",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Tryndamere.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Tryndamere.png",
         "abilities": {
             "P": {
                 "name": "Battle Fury",
@@ -8623,7 +8623,7 @@
         "id": 4,
         "key": "TwistedFate",
         "name": "Twisted Fate",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/TwistedFate.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/TwistedFate.png",
         "abilities": {
             "P": {
                 "name": "Loaded Dice",
@@ -8677,7 +8677,7 @@
         "id": 29,
         "key": "Twitch",
         "name": "Twitch",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Twitch.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Twitch.png",
         "abilities": {
             "P": {
                 "name": "Deadly Venom",
@@ -8737,7 +8737,7 @@
         "id": 77,
         "key": "Udyr",
         "name": "Udyr",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Udyr.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Udyr.png",
         "abilities": {
             "P": {
                 "name": "Bridge Between",
@@ -8803,7 +8803,7 @@
         "id": 6,
         "key": "Urgot",
         "name": "Urgot",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Urgot.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Urgot.png",
         "abilities": {
             "P": {
                 "name": "Echoing Flames",
@@ -8863,7 +8863,7 @@
         "id": 110,
         "key": "Varus",
         "name": "Varus",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Varus.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Varus.png",
         "abilities": {
             "P": {
                 "name": "Living Vengeance",
@@ -8923,7 +8923,7 @@
         "id": 67,
         "key": "Vayne",
         "name": "Vayne",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Vayne.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Vayne.png",
         "abilities": {
             "P": {
                 "name": "Night Hunter",
@@ -8977,7 +8977,7 @@
         "id": 45,
         "key": "Veigar",
         "name": "Veigar",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Veigar.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Veigar.png",
         "abilities": {
             "P": {
                 "name": "Phenomenal Evil Power",
@@ -9037,7 +9037,7 @@
         "id": 161,
         "key": "Velkoz",
         "name": "Vel'Koz",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Velkoz.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Velkoz.png",
         "abilities": {
             "P": {
                 "name": "Organic Deconstruction",
@@ -9097,7 +9097,7 @@
         "id": 711,
         "key": "Vex",
         "name": "Vex",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Vex.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Vex.png",
         "abilities": {
             "P": {
                 "name": "Doom 'n Gloom",
@@ -9162,7 +9162,7 @@
         "id": 254,
         "key": "Vi",
         "name": "Vi",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Vi.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Vi.png",
         "abilities": {
             "P": {
                 "name": "Blast Shield",
@@ -9235,7 +9235,7 @@
         "id": 234,
         "key": "Viego",
         "name": "Viego",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Viego.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Viego.png",
         "abilities": {
             "P": {
                 "name": "Sovereign's Domination",
@@ -9295,7 +9295,7 @@
         "id": 112,
         "key": "Viktor",
         "name": "Viktor",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Viktor.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Viktor.png",
         "abilities": {
             "P": {
                 "name": "Glorious Evolution",
@@ -9355,7 +9355,7 @@
         "id": 8,
         "key": "Vladimir",
         "name": "Vladimir",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Vladimir.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Vladimir.png",
         "abilities": {
             "P": {
                 "name": "Crimson Pact",
@@ -9415,7 +9415,7 @@
         "id": 106,
         "key": "Volibear",
         "name": "Volibear",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Volibear.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Volibear.png",
         "abilities": {
             "P": {
                 "name": "The Relentless Storm",
@@ -9475,7 +9475,7 @@
         "id": 19,
         "key": "Warwick",
         "name": "Warwick",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Warwick.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Warwick.png",
         "abilities": {
             "P": {
                 "name": "Eternal Hunger",
@@ -9535,7 +9535,7 @@
         "id": 62,
         "key": "MonkeyKing",
         "name": "Wukong",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/MonkeyKing.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/MonkeyKing.png",
         "abilities": {
             "P": {
                 "name": "Stone Skin",
@@ -9595,7 +9595,7 @@
         "id": 498,
         "key": "Xayah",
         "name": "Xayah",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Xayah.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Xayah.png",
         "abilities": {
             "P": {
                 "name": "Clean Cuts",
@@ -9655,7 +9655,7 @@
         "id": 101,
         "key": "Xerath",
         "name": "Xerath",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Xerath.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Xerath.png",
         "abilities": {
             "P": {
                 "name": "Mana Surge",
@@ -9719,7 +9719,7 @@
         "id": 5,
         "key": "XinZhao",
         "name": "Xin Zhao",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/XinZhao.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/XinZhao.png",
         "abilities": {
             "P": {
                 "name": "Determination",
@@ -9779,7 +9779,7 @@
         "id": 157,
         "key": "Yasuo",
         "name": "Yasuo",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Yasuo.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Yasuo.png",
         "abilities": {
             "P": {
                 "name": "Way of the Wanderer",
@@ -9839,7 +9839,7 @@
         "id": 777,
         "key": "Yone",
         "name": "Yone",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Yone.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Yone.png",
         "abilities": {
             "P": {
                 "name": "Way of the Hunter",
@@ -9899,7 +9899,7 @@
         "id": 83,
         "key": "Yorick",
         "name": "Yorick",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Yorick.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Yorick.png",
         "abilities": {
             "P": {
                 "name": "Shepherd of Souls",
@@ -9959,7 +9959,7 @@
         "id": 350,
         "key": "Yuumi",
         "name": "Yuumi",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Yuumi.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Yuumi.png",
         "abilities": {
             "P": {
                 "name": "Feline Friendship",
@@ -10037,7 +10037,7 @@
         "id": 154,
         "key": "Zac",
         "name": "Zac",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Zac.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Zac.png",
         "abilities": {
             "P": {
                 "name": "Cell Division",
@@ -10101,7 +10101,7 @@
         "id": 238,
         "key": "Zed",
         "name": "Zed",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Zed.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Zed.png",
         "abilities": {
             "P": {
                 "name": "Contempt for the Weak",
@@ -10161,7 +10161,7 @@
         "id": 221,
         "key": "Zeri",
         "name": "Zeri",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Zeri.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Zeri.png",
         "abilities": {
             "P": {
                 "name": "Living Battery",
@@ -10221,7 +10221,7 @@
         "id": 115,
         "key": "Ziggs",
         "name": "Ziggs",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Ziggs.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Ziggs.png",
         "abilities": {
             "P": {
                 "name": "Short Fuse",
@@ -10285,7 +10285,7 @@
         "id": 26,
         "key": "Zilean",
         "name": "Zilean",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Zilean.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Zilean.png",
         "abilities": {
             "P": {
                 "name": "Time in a Bottle",
@@ -10349,7 +10349,7 @@
         "id": 142,
         "key": "Zoe",
         "name": "Zoe",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Zoe.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Zoe.png",
         "abilities": {
             "P": {
                 "name": "More Sparkles!",
@@ -10409,7 +10409,7 @@
         "id": 143,
         "key": "Zyra",
         "name": "Zyra",
-        "icon": "http://ddragon.leagueoflegends.com/cdn/14.17.1/img/champion/Zyra.png",
+        "icon": "http://ddragon.leagueoflegends.com/cdn/14.18.1/img/champion/Zyra.png",
         "abilities": {
             "P": {
                 "name": "Garden of Thorns",
